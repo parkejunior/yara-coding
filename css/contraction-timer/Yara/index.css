@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  background-color:#f2f6ff;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Back Container */
+.parent-container {
+  background-color: #03033a;
+  border-radius: 20px;
+  width: 220px;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+
+/*Front Container */
+.child-container {
+  background-color: white;
+  height: 500px;
+  width: 310px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 30px #acadba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 70px;
+  right: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 350px;
+  margin-top: 23px;
+  font-weight: 600;
+}
+
+/* First Container */
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  /* border: 3px solid green; */
+}
+
+
+/* Fist Container Content */
+.symbol {
+  width: 22px;
+  height: 22px;
+}
+
+.contraction {
+  color: #222545; 
+}
+
+h1 {
+  color: #222545;
+  font-weight: 500;
+}
+
+.contraction-text {
+  color: #222545;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.contraction-time {
+  font-weight: 700;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #03033a;
+  color: white;
+  border-radius: 30px;
+  padding: 13px;
+  margin: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+
+/* Second Container */
+.second-container {
+  margin: 30px 2px;
+  font-size: 13px;
+  width: 300px;
+  /* border: 3px solid purple; */
+}
+
+.description-line {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  color: #a8a7a7;
+  font-weight: 500;
+  /* border: 3px solid green; */
+
+}
+
+/*Not sure if the next 5 classes should be here */
+.length {
+   /* border: 2px solid blue;  */
+   flex-grow: 0;
+  padding-right: 33px; 
+}
+
+.time {
+   /* border: 2px solid red;  */
+   flex-grow: 1; 
+}
+
+.start {
+  /* border: 2px solid orange;  */
+  flex-grow: 1;
+  padding-left: 27px;
+}
+
+.first-row {
+  order: 0;
+  flex-grow: 0.5;
+  
+}
+.second-row {
+  order: 0;
+  flex-grow: 0.5;
+  padding-left: 20px;
+  
+} 
+
+/*Rows of the second container*/
+.f-line , .t-line {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#e5e7f7;
+  border-radius: 5px;
+  padding:  10px 3px 10px 10px;
+  font-size: 12px;
+  /* border: 3px solid red;*/
+}
+
+.s-line , .forth-line {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:white;
+  border-radius: 5px;
+  padding:  10px 3px 10px 10px;
+  font-size: 12px;
+  /* border: 3px solid blue;  */
+}
+
