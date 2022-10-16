@@ -10,6 +10,8 @@ A estrutura de pastas será: `/[linguagem]/[nome do exercício]/[nome do usuári
 /css/contraction-timer/patrick
 ```
 
+Para resumo de aulas veja o repositório [yara-learning](https://github.com/parkejunior/yara-learning).
+
 ## CSS
 - [Contraction Timer](css/contraction-timer)
 
