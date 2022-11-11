@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/c2da523f98.js" crossorigin="anonymous"></script>
+  <title>Design Daily</title>
+</head>
+<body>
+<div class="container">
+  <div class="inner-container">
+  <header>
+    <h1 class="top"> <img class="logo" src="./img/logo.svg" alt="UI Logo" width="40px" height="40px">  Design Daily</h1>
+    <div class="top-container">
+      <div>
+        <!-- <img src="./img/search.svg" alt="Search Symbol" width="50px" height="50px"> -->
+        <form>
+          <input type="text" 
+                placeholder= "Symbol Search ads"
+                class="search"
+                >
+        </form>
+      </div>
+      <button>Filters</button>
+    </div>
+  </header>
+
+  <main>
+    <table class="table">
+      <tr class="title">
+        <th class="title">Name</th>
+        <th class="title">Clicks</th>
+        <th class="title">Priority</th>
+        <th class="title">Impressions</th>
+      </tr>
+
+      <tr class="row" id="row-one">
+        <td class="start-row shadow-orange">Shure SE110 in-ear headphones</td>
+        <td >845</td>
+        <td> <i class="fa-solid fa-circle fa-2xs fa-orange"></i>200</td>
+        <td class="end-row">190</td>
+      </tr>
+
+      <tr class="row" id="row-two">
+        <td class="start-row shadow-green">Our favorite iPhone solution</td>
+        <td>620</td>
+        <td><i class="fa-solid fa-circle fa-2xs fa-green"></i>600</td>
+        <td class="end-row">478</td>
+      </tr>
+
+      <tr class="row" id="row-three">
+        <td class="start-row shadow-blue">Audio jack for connecting to your own headphones</td>
+        <td>620</td>
+        <td><i class="fa-solid fa-circle fa-2xs fa-blue"></i>600</td>
+        <td class="end-row">478</td>
+      </tr>
+
+      <tr class="row" id="row-four">
+        <td class="start-row shadow-orange">Memory-foam tips</td>
+        <td>430</td>
+        <td><i class="fa-solid fa-circle fa-2xs fa-orange"></i>200</td>
+        <td class="end-row">197</td>
+      </tr>
+
+      <tr class="row" id="row-five">
+        <td class="start-row shadow-blue"> Cables over the top </td>
+        <td> 170 </td>
+        <td><i class="fa-solid fa-circle fa-2xs fa-blue"></i>  289 </td>
+        <td class="end-row"> 289 </td>
+      </tr>
+    </table>
+    <div class="bottom">
+      <button class="button-color">+</button>
+    </div>
+
+  </main>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
