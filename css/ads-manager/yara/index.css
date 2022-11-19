@@ -5,6 +5,7 @@ body {
   background-color:#161f3b;
   color: white;
   font-family: 'Poppins', sans-serif;
+  
 
 }
 
@@ -16,6 +17,7 @@ main {
   color: #99a0b9;
   font-weight: 400;
   width: 900px;
+  
   
 }
 
@@ -116,8 +118,8 @@ button {
 
 .container {
   margin-top :112px;
-  margin-left: 80px;
-  
+  margin-left: auto;
+  margin-right: auto;
   background-color: #242e4c;
   /* width:1500px;
   height:1000px; */
