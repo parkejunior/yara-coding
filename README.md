@@ -19,3 +19,5 @@ Para resumo de aulas veja o repositório [yara-learning](https://github.com/park
 - [Contraction Timer](css/contraction-timer)
 
 ## JavaScript
+- [Arrays 2](css/arrays2)
+- [Arrays 1](css/arrays1)
