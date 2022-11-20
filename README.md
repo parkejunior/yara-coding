@@ -13,6 +13,7 @@ A estrutura de pastas será: `/[linguagem]/[nome do exercício]/[nome do usuári
 Para resumo de aulas veja o repositório [yara-learning](https://github.com/parkejunior/yara-learning).
 
 ## CSS
+- [Events List](css/events-list)
 - [Cargo Design Agency](css/cargo-design-agency)
 - [Ads Manager](css/ads-manager)
 - [Contraction Timer](css/contraction-timer)
