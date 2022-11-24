@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+  background-color: #e7e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+main {
+  /* border: 1px solid rebeccapurple; */
+  width: 730px;
+  margin: auto;
+  background-color: #e7e8f0;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: 'Merriweather', serif;
+  margin-top: 30px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  /* border: 1px solid palevioletred; */
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 18px;
+  margin: 20px 0px;
+  width:700px;
+  height: 130px;
+  display: flex;
+}
+
+.square {
+  width:100px;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  padding-left: 25px;
+  border-radius: 10px;
+  background-color: #e5ccef;
+  margin: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Square Colours */
+.spurple {
+  background-color: #e9eaf2;
+}
+
+.spink {
+  background-color: #efe3ef;
+}
+
+.sorange {
+  background-color: #f5e7e3;
+}
+
+.sgreen {
+  background-color: #eaf7ea;
+}
+
+.timeText {
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+}
+
+.explanation-text {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  /* border: 1px solid green; */
+
+}
