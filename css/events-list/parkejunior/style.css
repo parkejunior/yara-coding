@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;&display=swap');
+
+:root {
+  --navy-blue: #1c2442;
+}
+
+body {
+  background-color: #eceff8;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Merriweather Sans', serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--navy-blue);
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.content-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container {
+  max-width: 950px;
+}
+
+.list-item {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  padding: 18px;
+  gap: 30px;
+}
+
+.list-item:hover {
+  box-shadow: 0px 5px 15px #00000022;
+}
+
+.list-schedule {
+  color: var(--navy-blue);
+  border-radius: 10px;
+  text-align: center;
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-date {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.list-time {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+.list-content {
+  display: flex;
+  padding: 15px 0px;
+  gap: 130px;
+}
+
+.list-content h2 {
+  margin: 0 0 10px 0;
+  font-weight: 900;
+}
+
+.list-content p {
+  margin: 0;
+}
+
+.btn {
+  white-space: nowrap;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-light {
+  background-color: white;
+}
+
+.btn-light:hover {
+  background-color: black;
+  color: #eee;
+}
+
+.list-bg-lilac {
+  background-color: #eceff8;
+}
+
+.list-bg-pink {
+  background-color: #f8ecf8;
+}
+
+.list-bg-coral {
+  background-color: #f8ecec;
+}
+
+.list-bg-green {
+  background-color: #eef8ec;
+}
